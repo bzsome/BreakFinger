@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StartActivity">
+
+    <EditText
+        android:id="@+id/edit_01"
+        android:layout_width="match_parent"
+        android:layout_height="32dp" />
+
+    <Button
+        android:id="@+id/btn_startApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="启动①" />
+
+
+    <EditText
+        android:id="@+id/edit_02"
+        android:layout_width="match_parent"
+        android:layout_height="32dp" />
+
+    <EditText
+        android:id="@+id/edit_03"
+        android:layout_width="match_parent"
+        android:layout_height="32dp" />
+
+    <Button
+        android:id="@+id/btn_startActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="启动02" />
+
+    <Button
+        android:id="@+id/btn_startFrame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="启动frame" />
+
+    <EditText
+        android:id="@+id/edit_log"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

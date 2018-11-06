@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\t绕过系统锁屏密码设置指纹\n\t在无锁屏的情况下使用指纹应用" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\t设置密码 -> 添加指纹 -> 清除屏锁" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_active"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="激活设备管理" />
+
+        <Button
+            android:id="@+id/btn_lock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="一键锁屏" />
+
+        <Button
+            android:id="@+id/btn_startTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="启动测试" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_setPass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="①设置密码(123456)" />
+
+        <Button
+            android:id="@+id/btn_security"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="②安全设置(添加指纹)" />
+
+        <Button
+            android:id="@+id/btn_clearPass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="③清除锁屏(取消锁屏)" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
