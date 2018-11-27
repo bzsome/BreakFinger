@@ -1,4 +1,4 @@
-# BreakFinger
+# BreakFinger 仅支持Android6.0，不支持android7.0
 突破锁屏限制，取消系统锁屏依然能够使用指纹识别
 
 
